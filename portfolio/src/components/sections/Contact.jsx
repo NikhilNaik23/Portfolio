@@ -15,7 +15,7 @@ export const Contact = () => {
     const handleSubmit = (e) => {
       e.preventDefault();
     
-      fetch('http://localhost:5000/send-email', {
+      fetch('/api/send-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

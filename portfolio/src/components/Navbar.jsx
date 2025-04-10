@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
@@ -11,12 +10,12 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link
-            to="/"
+          <a
+            href="#home"
             className="font-bold text-white-900 text-xl font-mono"
           >
             NikhilNaik
-          </Link>
+          </a>
 
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
@@ -26,30 +25,30 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link
-              to="/"
+            <a
+              href="#home"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Home
-            </Link>
-            <Link
-              to="/about"
+            </a>
+            <a
+              href="#about"
               className="text-gray-300 hover:text-white transition-colors"
             >
               About
-            </Link>
-            <Link
-              to="/projects"
+            </a>
+            <a
+              href="#projects"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Projects
-            </Link>
-            <Link
-              to="/contact"
+            </a>
+            <a
+              href="#contact"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       </div>

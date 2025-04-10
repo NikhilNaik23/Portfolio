@@ -7,7 +7,6 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
-import { Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -25,12 +24,10 @@ function App() {
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <Home/>
+        <About/>
+        <Projects/>
+        <Contact/>
       </div>
     </>
   );

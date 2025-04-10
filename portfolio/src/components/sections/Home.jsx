@@ -20,18 +20,18 @@ export const Home = () => {
           exceptional performance and a delightful user experience.
         </p>
         <div className="flex justify-center space-x-4">
-          <Link
-            to="/projects"
+          <a
+            href="#projects"
             className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:bg-transparent"
           >
             View Projects
-          </Link>
-          <Link
-            to="/contact"
+          </a>
+          <a
+            href="#contact"
             className="border border-blue-500/50 text-blue-500 rounded py-3 px-6 font-medium transition-all duration-100 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
           >
             Contact Me
-          </Link>
+          </a>
         </div>
       </div>
       </RevealOnScroll>

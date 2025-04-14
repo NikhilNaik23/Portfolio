@@ -44,7 +44,7 @@ export function Projects() {
                 </div>
                 <div className="flex justify-between items-center">
                   <a
-                    href="https://github.com/NikhilNaik23/Portfolio"
+                    href="https://nikhils-portfolio-nnex.onrender.com"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
                     View Site {"->"}{" "}

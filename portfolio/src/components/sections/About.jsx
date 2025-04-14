@@ -13,7 +13,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-20 "
     >
       <RevealOnScroll>
       <div className="max-w-3xl mx-auto px-4">
@@ -75,19 +75,19 @@ export const About = () => {
               </li>
             </ul>
           </div>
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]  transition-all">
+          {/* <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]  transition-all">
             <h3 className="text-xl font-bold mb-4"> 💼 Work Experience</h3>
             <div className="space-y-4 text-gray-300">
               <div>
-                <h4  className="font-semibold">{/* Job Title */}</h4>
-                <p>{/*Job Description */}</p>
+                <h4  className="font-semibold">Job Title</h4>
+                <p>Job Description</p>
               </div>
               <div>
-                <h4 className="font-semibold">{/* Job Title */}</h4>
-                <p>{/*Job Description */}</p>
+                <h4 className="font-semibold">Job Title</h4>
+                <p>Job Description</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       </RevealOnScroll>

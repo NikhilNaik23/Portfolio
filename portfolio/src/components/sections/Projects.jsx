@@ -53,6 +53,46 @@ export function Projects() {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl mb-2 font-bold">WishCart</h3>
+              <p className="text-gray-400 mb-4">
+                WishCart is a simple open-source platform built around CRUD
+                operations. It enables users to browse products, add them to
+                their cart, and manage Cart.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-2">
+                {["React", "Chakra UI", "Node.js", "Express", "MongoDB"].map(
+                  (tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                  hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="flex justify-between pt-8">
+                <div className="flex justify-between items-center">
+                  <a
+                    href="https://github.com/NikhilNaik23/WishCart"
+                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  >
+                    View Code {"->"}{" "}
+                  </a>
+                </div>
+                <div className="flex justify-between items-center">
+                  <a
+                    href="https://wishcart.onrender.com/"
+                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  >
+                    View Site {"->"}{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl mb-2 font-bold">
                 {/* Project Name */} GroupChat App
               </h3>
@@ -81,7 +121,7 @@ export function Projects() {
                   </span>
                 ))}
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-between pt-6">
                 <div className="flex justify-between items-center">
                   <a
                     href="https://github.com/NikhilNaik23/MernChatApp"
@@ -93,6 +133,45 @@ export function Projects() {
                 <div className="flex justify-between items-center">
                   <a
                     href="https://mernchatapp-1-3kd0.onrender.com"
+                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  >
+                    View Site {"->"}{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl mb-2 font-bold">Admin Dashboard</h3>
+              <p className="text-gray-400 mb-4">
+                A simple admin dashboard with CRUD operations built with React,
+                Node.js, Express, and MongoDB. It allows admins to manage view data,
+                create data, delete data, update data.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-2">
+                {["React", "Node.js", "Express", "MongoDB", "TailwindCSS"].map(
+                  (tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="flex justify-between ">
+                <div className="flex justify-between items-center">
+                  <a
+                    href="https://github.com/NikhilNaik23/AdminDashboard"
+                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  >
+                    View Code {"->"}{" "}
+                  </a>
+                </div>
+                <div className="flex justify-between items-center">
+                  <a
+                    href="https://admindashboard-gohz.onrender.com/"
                     className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   >
                     View Site {"->"}{" "}

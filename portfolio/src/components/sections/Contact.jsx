@@ -89,8 +89,10 @@ export const Contact = () => {
               Send Message
             </button>
           </form>
+          
         </div>
       </RevealOnScroll>
+      
     </section>
   );
 };

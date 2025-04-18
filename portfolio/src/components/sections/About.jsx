@@ -20,22 +20,22 @@ export const About = () => {
     {
       name: "Web Development Certification",
       from: "Internshala",
-      link: "https://drive.google.com/file/d/1gKZxqUB0GTz8CQIwgGwDJgA_NF666jRt/view",
+      link: "https://drive.google.com/file/d/1gKZxqUB0GTz8CQIwgGwDJgA_NF666jRt/view?usp=sharing",
     },
     {
       name: "Full-Stack Web Developer Certification",
       from: "LinkedIn Learning",
-      link: "https://drive.google.com/file/d/12Z-KZ1Z_CR8kBTFlXOgRILOb5wCgqfGr/view",
+      link: "https://drive.google.com/file/d/12Z-KZ1Z_CR8kBTFlXOgRILOb5wCgqfGr/view?usp=sharing",
     },
     {
       name: "Data Structures and Algorithms in C++",
       from: "Coding Ninjas",
-      link: "https://drive.google.com/file/d/1RhDAIjQ072XfiPtQ96_RSisa-VavpzML/view",
+      link: "https://drive.google.com/file/d/1RhDAIjQ072XfiPtQ96_RSisa-VavpzML/view?usp=sharing",
     },
     {
       name: "Python, Data Science & Machine Learning Integrated Course",
       from: "Cipher Schools",
-      link: "https://drive.google.com/file/d/16Yyfxt1j0lwJvPl0ShgYeKT1979z8xDc/view",
+      link: "https://docs.google.com/document/d/132oUNo1dr_VoqS1jTkHCjFQcbsUSHsLLYwVjlxwJyCw/edit?usp=sharing",
     },
   ];
 

@@ -50,7 +50,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Contact
             </a>
             <a
-              href="#contact"
+              href="/Nikhil_Naik_Resume.pdf"
+              download
               className="text-gray-300 hover:text-blue-500 transition-colors"
             >
               Resume

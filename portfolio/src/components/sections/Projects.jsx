@@ -9,7 +9,7 @@ export function Projects() {
         "A sleek and responsive personal portfolio website showcasing development projects, skills, and experience. Built using modern technologies with a focus on UI/UX and accessibility.",
       technologies: ["React", "TailwindCSS", "JavaScript"],
       github: "https://github.com/NikhilNaik23/Portfolio",
-      site: "https://nikhils-portfolio-nnex.onrender.com",
+      site: "#",
       textClassName: "text-lg leading-relaxed mt-6",
       features: [
         "Responsive design optimized for all devices using TailwindCSS.",

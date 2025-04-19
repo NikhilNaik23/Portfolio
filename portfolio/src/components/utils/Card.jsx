@@ -12,7 +12,7 @@ export const Card = ({
 
   return (
     <div className={twMerge("sticky top-30 max-w-4xl mx-auto px-4", cn)}>
-      <div className="p-6 rounded-xl w-full border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition bg-gradient-to-r from-white to-blue-900">
+      <div className="p-6 rounded-xl w-full border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition bg-gradient-to-r from-gray-300 to-blue-900">
         <h3 className="text-xl mb-2 font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
           {name}
         </h3>

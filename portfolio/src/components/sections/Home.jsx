@@ -7,9 +7,16 @@ export const Home = () => {
     >
       <RevealOnScroll>
       <div className="text-center z-10 px-4">
-        {/* <div className='flex items-center justify-center mb-1'>
-          <img src={`${profilePic}`} className='h-50 rounded-full'></img>
-        </div> */}
+        <div className='flex items-center justify-center mb-1'>
+           <video
+              src="/coding.mp4"
+              className="h-50 rounded-full"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
+        </div>
         <h1 className="text-4xl md:text-7xl md:mt-0 font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
           Hi, I'm NikhilNaik
         </h1>

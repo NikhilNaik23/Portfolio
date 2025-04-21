@@ -3,7 +3,6 @@ import { twMerge } from "tailwind-merge";
 export const Card = ({
   name,
   description,
-  textClassName,
   technologies,
   github,
   site,

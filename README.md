@@ -43,3 +43,22 @@ To view my portfolio locally, follow these steps:
    ```bash
    git clone https://github.com/NikhilNaik23/Portfolio.git
    ```
+   
+2. **Install dependencies**:  
+   Navigate to the project folder and install the required dependencies:
+
+    ```bash
+    cd portfolio
+    npm install
+    ```
+
+3. **Run the project**:  
+   Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+4. Open your browser and visit:  
+   [http://localhost:3000](http://localhost:3000)
+

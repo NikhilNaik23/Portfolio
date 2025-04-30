@@ -62,3 +62,6 @@ To view my portfolio locally, follow these steps:
 4. Open your browser and visit:  
    [http://localhost:3000](http://localhost:3000)
 
+---
+
+_This portfolio is for personal use and not licensed for redistribution._

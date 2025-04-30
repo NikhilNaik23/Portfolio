@@ -64,4 +64,3 @@ To view my portfolio locally, follow these steps:
 
 ---
 
-_This portfolio is for personal use and not licensed for redistribution._

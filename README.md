@@ -27,7 +27,7 @@ An open-source e-commerce web app that allows users to explore products, add/rem
 A real-time group messaging application designed for seamless communication. It features live chat, authentication, and user management with a full-stack MERN setup.
 - **Tech Stack**: React, TailwindCSS, JavaScript, Node.js, MongoDB, socket.io, Express.js
 - [View Code](https://github.com/NikhilNaik23/MernChatApp)
-- [View Site](https://mernchatapp-1-3kd0.onrender.com/)
+- [View Site](https://mernchatapp-1-3kd0.onrender.com/signup)
 
 ### 3. **Admin Dashboard**
 An intuitive admin dashboard allowing admin users to perform full CRUD operations on user data. It’s built to streamline backend data management with simplicity and efficiency.

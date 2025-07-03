@@ -14,11 +14,11 @@ import { Toaster } from "react-hot-toast";
 import "./index.css";
 
 function App() {
+    useEffect(() => {
+    window.location.replace('https://nikhil-s-portfolio-pqsb.onrender.com');
+  }, []);
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-useEffect(() => {
-    window.location.href = "https://nikhil-s-portfolio-pqsb.onrender.com/";
-  }, []);
   return (
     <>
       <Helmet>

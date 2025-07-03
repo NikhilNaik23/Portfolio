@@ -14,9 +14,6 @@ import { Toaster } from "react-hot-toast";
 import "./index.css";
 
 function App() {
-    useEffect(() => {
-    window.location.replace('https://nikhil-s-portfolio-pqsb.onrender.com');
-  }, []);
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -77,7 +74,9 @@ function App() {
 
       <Toaster position="top-center" reverseOrder={false} />
 
-      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(false)} />}
+      {!isLoaded && <LoadingScreen onComplete={() => window.location.replace(
+              "https://nikhil-s-portfolio-pqsb.onrender.com"
+            )} />}
 
       <div
         className={`min-h-screen transition-opacity duration-700 ${

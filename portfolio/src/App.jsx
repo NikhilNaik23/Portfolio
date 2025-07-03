@@ -77,7 +77,7 @@ function App() {
 
       <Toaster position="top-center" reverseOrder={false} />
 
-      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
+      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(false)} />}
 
       <div
         className={`min-h-screen transition-opacity duration-700 ${

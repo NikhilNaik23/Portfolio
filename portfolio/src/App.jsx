@@ -75,7 +75,7 @@ function App() {
       <Toaster position="top-center" reverseOrder={false} />
 
       {!isLoaded && <LoadingScreen onComplete={() => window.location.replace(
-              "https://nikhil-s-portfolio-pqsb.onrender.com"
+              "https://portfolio-nu-fawn-11.vercel.app/"
             )} />}
 
       <div

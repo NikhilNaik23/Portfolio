@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect,useState } from "react";
 import { Helmet } from "react-helmet-async";
 
 import { LoadingScreen } from "./components/LoadingScreen";
@@ -16,7 +16,9 @@ import "./index.css";
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
+useEffect(() => {
+    window.location.href = "https://nikhil-s-portfolio-pqsb.onrender.com/";
+  }, []);
   return (
     <>
       <Helmet>
